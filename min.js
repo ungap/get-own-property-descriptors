@@ -1,0 +1,1 @@
+var getOwnPropertyDescriptors=function(r){var e=r.getOwnPropertyDescriptors;if(e)return e;var a=r.defineProperty,c=r.getOwnPropertyDescriptor,i=r.getOwnPropertyNames,s=r.getOwnPropertySymbols;return function(r){for(var e,t={},n=i(r).concat(s(r)),o=0,p=n.length;o<p;o++)e=n[o],a(t,e,{enumerable:!0,value:c(r,e)});return t}}(Object);
