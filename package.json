@@ -1,6 +1,6 @@
 {
   "name": "get-own-property-descriptors",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Provides `Object.getOwnPropertyDescriptors` to older engines",
   "main": "cjs/index.js",
   "module": "esm/index.js",
@@ -14,7 +14,11 @@
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "test": "istanbul cover test/index.js"
   },
-  "keywords": ["Object", "getOwnPropertyDescriptors", "polyfill"],
+  "keywords": [
+    "Object",
+    "getOwnPropertyDescriptors",
+    "polyfill"
+  ],
   "author": "Andrea Giammarchi",
   "license": "ISC",
   "devDependencies": {
