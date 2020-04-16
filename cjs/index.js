@@ -9,7 +9,7 @@ var getOwnPropertyDescriptors = (function (Object) {
     for (var
       key,
       descriptors = {},
-      keys = gOPN(object).concat(gOPS(object)),
+      keys = gOPN(object).concat(gOPS ? gOPS(object) : []),
       i = 0, length = keys.length; i < length; i++
     ) {
       key = keys[i];
